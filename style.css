@@ -16,3 +16,9 @@
     transform: scale(1.05);
     box-shadow: 2px 2px 2px -2.50px #000000;
 }
+ @media screen and (max-width:580px )
+  {
+        .ad-img{
+            height:240px;
+        }  
+  }
