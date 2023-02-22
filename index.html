@@ -20,12 +20,12 @@
 <body >
 
   <!-- navigation bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container-md">
           <a class="navbar-brand" href="index.html">
             <img src="company_logo.png" width="70" height="50">
           </a>
-          <button class="navbar-toggler btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="bi bi-person-fill"></span>
           </button>
   <!-- responsive nav bar setting and buttons -->
@@ -57,71 +57,104 @@
         </div>
       </nav>
 
-  <!-- service sections -->
-      <div class="container-rule text-center">
-        <div class="row">
-          <div class="col-sm-2">
-            <div class="card">
-              <div class="card-body">
-                <a href="grocery.html">
-                  <img src="grocery.jpg" width="100dp" alt="groceries" >
-                </a>
-                <p class="card-text">Grocery</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-2">
-            <div class="card">
-              <div class="card-body">
-                <a href="grocery.html">
-                  <img src="grocery.jpg" width="100dp" alt="groceries" >
-                </a>
-                <p class="card-text">Grocery</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-2">
-            <div class="card">
-              <div class="card-body">
-                <a href="grocery.html">
-                  <img src="grocery.jpg" width="100dp" alt="groceries" >
-                </a>
-                <p class="card-text">Grocery</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-2">
-            <div class="card">
-              <div class="card-body">
-                <a href="grocery.html">
-                  <img src="grocery.jpg" width="100dp" alt="groceries" >
-                </a>
-                <p class="card-text">Grocery</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-2">
-            <div class="card">
-              <div class="card-body">
-                <a href="grocery.html">
-                  <img src="grocery.jpg" width="100dp" alt="groceries" >
-                </a>
-                <p class="card-text">Grocery</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-2">
-            <div class="card">
-              <div class="card-body">
-                <a href="grocery.html">
-                  <img src="grocery.jpg" width="100dp" alt="groceries" >
-                </a>
-                <p class="card-text">Grocery</p>
-              </div>
+  <!-- ads section i.e. carousel -->
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="4000">
+        <img src="offers/delivery-offer.jpg" class="d-block" height="500" width="100%" alt="delivery-offer">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="offers/groceries-offers.jpg" class="d-block" height="500" width="100%" alt="groceries-offer">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000"> 
+        <img src="offers/meat-offers.jpeg" class="d-block" height="500" width="100%" alt="meat-offer">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+    <!-- service sections -->
+    <div class="container-rule text-center">
+      <h1><strong>Product Categories</strong></h1><br><br>
+      <div class="row">
+        <div class="col-sm-2">
+          <div class="card">
+            <div class="card-body">
+              <a href="grocery.html">
+                <img src="grocery.jpg" width="100dp" alt="vegetables" >
+              </a>
+              <p class="card-text">Vegetables</p>
             </div>
           </div>
         </div>
-      </div>   
+        <div class="col-sm-2">
+          <div class="card">
+            <div class="card-body">
+              <a href="meat.html">
+                <img src="meat.jpg" width="100dp" alt="meat">
+              </a>
+              <p class="card-text">Meat and Poultry</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="card">
+            <div class="card-body">
+              <a href="beverages.html">
+                <img src="beverages.jpg" width="100dp" alt="beverages" >
+              </a>
+              <p class="card-text">Beverages</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="card">
+            <div class="card-body">
+              <a href="electronics.html">
+                <img src="electronics.png" width="100dp" alt="electronics" >
+              </a>
+              <p class="card-text">Electronics</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="card">
+            <div class="card-body">
+              <a href="personalcare.html">
+                <img src="personalcare.png" width="100dp" alt="personalcare" >
+              </a>
+              <p class="card-text">Daily Needs</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="card">
+            <div class="card-body">
+              <a href="snack.html">
+                <img src="snack.png" width="100dp" alt="snack" >
+              </a>
+              <p class="card-text">Quick Bites</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>   
 
+    <div class="container-fluid">
+      
+    </div>
 </body>
 </html>

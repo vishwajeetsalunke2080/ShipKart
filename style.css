@@ -9,5 +9,10 @@
 
 .container-rule{
     background-color: rgb(238, 245, 243);
-    padding: 2.5%;
+    padding: 5% 2.5%;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px -2.50px #000000;
 }
